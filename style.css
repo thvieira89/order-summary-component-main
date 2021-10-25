@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+  --pale: hsl(225, 100%, 94%);
+  --bright: hsl(245, 75%, 52%);
+  --dark: hsl(223, 47%, 23%);
+  --desat: hsl(224, 23%, 55%);
+  --purple: hsl(245, 75%, 52%);
+  --button: hsl(230, 75%, 98%);
+  font-family: 'Red Hat Display';
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  background-color: var(--pale);
+}
+
+h1 {
+  color: var(--dark);
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.image {
+  height: 100%;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  border-radius: 15px;
+  width: 375px;
+  height: 565px;
+  align-items: center;
+  background-color: white;
+}
+
+#text,
+#price {
+  color: var(--dark);
+  text-align: center;
+  place-items: center;
+}
+
+#music {
+  margin-left: 50px;
+  margin-right: 25px;
+}
+
+.annual {
+  margin-right: 50px;
+}
+#price {
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-flex;
+  border-radius: 15px;
+  background-color: var(--button);
+  width: 90%;
+  height: 4rem;
+}
+
+#text {
+  color: var(--desat);
+  line-height: 1.8rem;
+  font-size: 1.08rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#button1 {
+  position: relative;
+  left: 5%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  background-color: var(--purple);
+  font-family: 'Red Hat Display';
+  font-weight: 900;
+  width: 90%;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+}
+
+#button2 {
+  position: relative;
+  left: 5%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  background-color: var(--button);
+  font-family: 'Red Hat Display';
+  font-weight: 900;
+  width: 90%;
+  color: var(--dark);
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+}
